@@ -1,0 +1,10 @@
+
+modify global_log.py log path
+
+modify *_rpc_server.py ip:port
+
+1. python3 two_text_relation_train.py 
+generate two_textCNN_relation.pkl
+
+2. nohup python3 -u *_rpc_server.py >> *_rpc_server.log 2>&1 &
+start server
