@@ -20,7 +20,7 @@ gensim==3.4.0
 idna==2.7
 jaraco.functools==1.20
 jmespath==0.9.3
-lxml==4.2.3
+lxml==4.6.2
 more-itertools==4.2.0
 msgpack-numpy==0.4.1
 msgpack-python==0.5.6
